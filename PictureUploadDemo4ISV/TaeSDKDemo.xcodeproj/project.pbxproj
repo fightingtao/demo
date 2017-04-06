@@ -1,0 +1,567 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F78E95831A2E188300FB5247 /* TaeFileSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F78E95821A2E188300FB5247 /* TaeFileSDK.framework */; };
+		F7A563291A1DBBBC009FDD85 /* yw_1222.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F7A563251A1DBBBC009FDD85 /* yw_1222.jpg */; };
+		F7BBF5D61A20D9A100E05C55 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7BBF5D51A20D9A100E05C55 /* ImageIO.framework */; };
+		F7F906681A1DB7D0005D4DFA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7F906671A1DB7D0005D4DFA /* Foundation.framework */; };
+		F7F9066A1A1DB7D0005D4DFA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7F906691A1DB7D0005D4DFA /* CoreGraphics.framework */; };
+		F7F9066C1A1DB7D0005D4DFA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7F9066B1A1DB7D0005D4DFA /* UIKit.framework */; };
+		F7F906721A1DB7D0005D4DFA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F7F906701A1DB7D0005D4DFA /* InfoPlist.strings */; };
+		F7F906741A1DB7D0005D4DFA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F7F906731A1DB7D0005D4DFA /* main.m */; };
+		F7F906781A1DB7D0005D4DFA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F7F906771A1DB7D0005D4DFA /* AppDelegate.m */; };
+		F7F9067A1A1DB7D0005D4DFA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7F906791A1DB7D0005D4DFA /* Images.xcassets */; };
+		F7F906811A1DB7D0005D4DFA /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7F906801A1DB7D0005D4DFA /* XCTest.framework */; };
+		F7F906821A1DB7D0005D4DFA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7F906671A1DB7D0005D4DFA /* Foundation.framework */; };
+		F7F906831A1DB7D0005D4DFA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7F9066B1A1DB7D0005D4DFA /* UIKit.framework */; };
+		F7F9068B1A1DB7D0005D4DFA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F7F906891A1DB7D0005D4DFA /* InfoPlist.strings */; };
+		F7F9068D1A1DB7D0005D4DFA /* TaeSDKDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F7F9068C1A1DB7D0005D4DFA /* TaeSDKDemoTests.m */; };
+		F7F906D31A1DB8EB005D4DFA /* CloudPushSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7F906D11A1DB8EB005D4DFA /* CloudPushSDK.framework */; };
+		F7F906D41A1DB8EB005D4DFA /* TAESDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7F906D21A1DB8EB005D4DFA /* TAESDK.framework */; };
+		F7F906D61A1DB8F6005D4DFA /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7F906D51A1DB8F6005D4DFA /* CoreTelephony.framework */; };
+		F7F906D81A1DB8FC005D4DFA /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F7F906D71A1DB8FC005D4DFA /* libz.dylib */; };
+		F7F906DA1A1DB903005D4DFA /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7F906D91A1DB903005D4DFA /* SystemConfiguration.framework */; };
+		F7F906DC1A1DB909005D4DFA /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7F906DB1A1DB909005D4DFA /* Security.framework */; };
+		F7F906DE1A1DB912005D4DFA /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7F906DD1A1DB912005D4DFA /* CFNetwork.framework */; };
+		F7F906E01A1DB918005D4DFA /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7F906DF1A1DB918005D4DFA /* CoreFoundation.framework */; };
+		F7F906E21A1DB91E005D4DFA /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7F906E11A1DB91E005D4DFA /* CoreLocation.framework */; };
+		F7F906ED1A1DB93C005D4DFA /* ALAssetRepresentation+extend.m in Sources */ = {isa = PBXBuildFile; fileRef = F7F906E51A1DB93C005D4DFA /* ALAssetRepresentation+extend.m */; };
+		F7F906EE1A1DB93C005D4DFA /* UITableViewCell+FixUITableViewCellAutolayout.m in Sources */ = {isa = PBXBuildFile; fileRef = F7F906E71A1DB93C005D4DFA /* UITableViewCell+FixUITableViewCellAutolayout.m */; };
+		F7F906EF1A1DB93C005D4DFA /* MainUIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7F906EA1A1DB93C005D4DFA /* MainUIViewController.m */; };
+		F7F906F01A1DB93C005D4DFA /* MyTableCells.m in Sources */ = {isa = PBXBuildFile; fileRef = F7F906EC1A1DB93C005D4DFA /* MyTableCells.m */; };
+		F7F906F21A1DB942005D4DFA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7F906F11A1DB942005D4DFA /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F7F906841A1DB7D0005D4DFA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F7F9065C1A1DB7D0005D4DFA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F7F906631A1DB7D0005D4DFA;
+			remoteInfo = TaeSDKDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F78E95821A2E188300FB5247 /* TaeFileSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TaeFileSDK.framework; path = TaeSDKDemo/libs/TaeFileSDK.framework; sourceTree = "<group>"; };
+		F7A563251A1DBBBC009FDD85 /* yw_1222.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = yw_1222.jpg; sourceTree = "<group>"; };
+		F7BBF5D51A20D9A100E05C55 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		F7F906641A1DB7D0005D4DFA /* TaeSDKDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaeSDKDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7F906671A1DB7D0005D4DFA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F7F906691A1DB7D0005D4DFA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F7F9066B1A1DB7D0005D4DFA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F7F9066F1A1DB7D0005D4DFA /* TaeSDKDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TaeSDKDemo-Info.plist"; sourceTree = "<group>"; };
+		F7F906711A1DB7D0005D4DFA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F7F906731A1DB7D0005D4DFA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F7F906751A1DB7D0005D4DFA /* TaeSDKDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TaeSDKDemo-Prefix.pch"; sourceTree = "<group>"; };
+		F7F906761A1DB7D0005D4DFA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F7F906771A1DB7D0005D4DFA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F7F906791A1DB7D0005D4DFA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F7F9067F1A1DB7D0005D4DFA /* TaeSDKDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaeSDKDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7F906801A1DB7D0005D4DFA /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		F7F906881A1DB7D0005D4DFA /* TaeSDKDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TaeSDKDemoTests-Info.plist"; sourceTree = "<group>"; };
+		F7F9068A1A1DB7D0005D4DFA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F7F9068C1A1DB7D0005D4DFA /* TaeSDKDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TaeSDKDemoTests.m; sourceTree = "<group>"; };
+		F7F906D11A1DB8EB005D4DFA /* CloudPushSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudPushSDK.framework; path = TaeSDKDemo/libs/CloudPushSDK.framework; sourceTree = "<group>"; };
+		F7F906D21A1DB8EB005D4DFA /* TAESDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TAESDK.framework; path = TaeSDKDemo/libs/TAESDK.framework; sourceTree = "<group>"; };
+		F7F906D51A1DB8F6005D4DFA /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		F7F906D71A1DB8FC005D4DFA /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		F7F906D91A1DB903005D4DFA /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		F7F906DB1A1DB909005D4DFA /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		F7F906DD1A1DB912005D4DFA /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		F7F906DF1A1DB918005D4DFA /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		F7F906E11A1DB91E005D4DFA /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		F7F906E41A1DB93C005D4DFA /* ALAssetRepresentation+extend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ALAssetRepresentation+extend.h"; sourceTree = "<group>"; };
+		F7F906E51A1DB93C005D4DFA /* ALAssetRepresentation+extend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ALAssetRepresentation+extend.m"; sourceTree = "<group>"; };
+		F7F906E61A1DB93C005D4DFA /* UITableViewCell+FixUITableViewCellAutolayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableViewCell+FixUITableViewCellAutolayout.h"; sourceTree = "<group>"; };
+		F7F906E71A1DB93C005D4DFA /* UITableViewCell+FixUITableViewCellAutolayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableViewCell+FixUITableViewCellAutolayout.m"; sourceTree = "<group>"; };
+		F7F906E81A1DB93C005D4DFA /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		F7F906E91A1DB93C005D4DFA /* MainUIViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainUIViewController.h; sourceTree = "<group>"; };
+		F7F906EA1A1DB93C005D4DFA /* MainUIViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainUIViewController.m; sourceTree = "<group>"; };
+		F7F906EB1A1DB93C005D4DFA /* MyTableCells.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTableCells.h; sourceTree = "<group>"; };
+		F7F906EC1A1DB93C005D4DFA /* MyTableCells.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTableCells.m; sourceTree = "<group>"; };
+		F7F906F11A1DB942005D4DFA /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F7F906611A1DB7D0005D4DFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F78E95831A2E188300FB5247 /* TaeFileSDK.framework in Frameworks */,
+				F7BBF5D61A20D9A100E05C55 /* ImageIO.framework in Frameworks */,
+				F7F9066C1A1DB7D0005D4DFA /* UIKit.framework in Frameworks */,
+				F7F9066A1A1DB7D0005D4DFA /* CoreGraphics.framework in Frameworks */,
+				F7F906E21A1DB91E005D4DFA /* CoreLocation.framework in Frameworks */,
+				F7F906E01A1DB918005D4DFA /* CoreFoundation.framework in Frameworks */,
+				F7F906DE1A1DB912005D4DFA /* CFNetwork.framework in Frameworks */,
+				F7F906DC1A1DB909005D4DFA /* Security.framework in Frameworks */,
+				F7F906DA1A1DB903005D4DFA /* SystemConfiguration.framework in Frameworks */,
+				F7F906D81A1DB8FC005D4DFA /* libz.dylib in Frameworks */,
+				F7F906D61A1DB8F6005D4DFA /* CoreTelephony.framework in Frameworks */,
+				F7F906D31A1DB8EB005D4DFA /* CloudPushSDK.framework in Frameworks */,
+				F7F906D41A1DB8EB005D4DFA /* TAESDK.framework in Frameworks */,
+				F7F906681A1DB7D0005D4DFA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7F9067C1A1DB7D0005D4DFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7F906811A1DB7D0005D4DFA /* XCTest.framework in Frameworks */,
+				F7F906831A1DB7D0005D4DFA /* UIKit.framework in Frameworks */,
+				F7F906821A1DB7D0005D4DFA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F7F9065B1A1DB7D0005D4DFA = {
+			isa = PBXGroup;
+			children = (
+				F7F9066D1A1DB7D0005D4DFA /* TaeSDKDemo */,
+				F7F906861A1DB7D0005D4DFA /* TaeSDKDemoTests */,
+				F7F906661A1DB7D0005D4DFA /* Frameworks */,
+				F7F906651A1DB7D0005D4DFA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F7F906651A1DB7D0005D4DFA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F7F906641A1DB7D0005D4DFA /* TaeSDKDemo.app */,
+				F7F9067F1A1DB7D0005D4DFA /* TaeSDKDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F7F906661A1DB7D0005D4DFA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F78E95821A2E188300FB5247 /* TaeFileSDK.framework */,
+				F7BBF5D51A20D9A100E05C55 /* ImageIO.framework */,
+				F7F906E11A1DB91E005D4DFA /* CoreLocation.framework */,
+				F7F906DF1A1DB918005D4DFA /* CoreFoundation.framework */,
+				F7F906DD1A1DB912005D4DFA /* CFNetwork.framework */,
+				F7F906DB1A1DB909005D4DFA /* Security.framework */,
+				F7F906D91A1DB903005D4DFA /* SystemConfiguration.framework */,
+				F7F906D71A1DB8FC005D4DFA /* libz.dylib */,
+				F7F906D51A1DB8F6005D4DFA /* CoreTelephony.framework */,
+				F7F906D11A1DB8EB005D4DFA /* CloudPushSDK.framework */,
+				F7F906D21A1DB8EB005D4DFA /* TAESDK.framework */,
+				F7F906671A1DB7D0005D4DFA /* Foundation.framework */,
+				F7F906691A1DB7D0005D4DFA /* CoreGraphics.framework */,
+				F7F9066B1A1DB7D0005D4DFA /* UIKit.framework */,
+				F7F906801A1DB7D0005D4DFA /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F7F9066D1A1DB7D0005D4DFA /* TaeSDKDemo */ = {
+			isa = PBXGroup;
+			children = (
+				F7A563251A1DBBBC009FDD85 /* yw_1222.jpg */,
+				F7F906F11A1DB942005D4DFA /* Main.storyboard */,
+				F7F906E31A1DB93C005D4DFA /* categories */,
+				F7F906E81A1DB93C005D4DFA /* Constants.h */,
+				F7F906E91A1DB93C005D4DFA /* MainUIViewController.h */,
+				F7F906EA1A1DB93C005D4DFA /* MainUIViewController.m */,
+				F7F906EB1A1DB93C005D4DFA /* MyTableCells.h */,
+				F7F906EC1A1DB93C005D4DFA /* MyTableCells.m */,
+				F7F906761A1DB7D0005D4DFA /* AppDelegate.h */,
+				F7F906771A1DB7D0005D4DFA /* AppDelegate.m */,
+				F7F906791A1DB7D0005D4DFA /* Images.xcassets */,
+				F7F9066E1A1DB7D0005D4DFA /* Supporting Files */,
+			);
+			path = TaeSDKDemo;
+			sourceTree = "<group>";
+		};
+		F7F9066E1A1DB7D0005D4DFA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F7F9066F1A1DB7D0005D4DFA /* TaeSDKDemo-Info.plist */,
+				F7F906701A1DB7D0005D4DFA /* InfoPlist.strings */,
+				F7F906731A1DB7D0005D4DFA /* main.m */,
+				F7F906751A1DB7D0005D4DFA /* TaeSDKDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F7F906861A1DB7D0005D4DFA /* TaeSDKDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				F7F9068C1A1DB7D0005D4DFA /* TaeSDKDemoTests.m */,
+				F7F906871A1DB7D0005D4DFA /* Supporting Files */,
+			);
+			path = TaeSDKDemoTests;
+			sourceTree = "<group>";
+		};
+		F7F906871A1DB7D0005D4DFA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F7F906881A1DB7D0005D4DFA /* TaeSDKDemoTests-Info.plist */,
+				F7F906891A1DB7D0005D4DFA /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F7F906E31A1DB93C005D4DFA /* categories */ = {
+			isa = PBXGroup;
+			children = (
+				F7F906E41A1DB93C005D4DFA /* ALAssetRepresentation+extend.h */,
+				F7F906E51A1DB93C005D4DFA /* ALAssetRepresentation+extend.m */,
+				F7F906E61A1DB93C005D4DFA /* UITableViewCell+FixUITableViewCellAutolayout.h */,
+				F7F906E71A1DB93C005D4DFA /* UITableViewCell+FixUITableViewCellAutolayout.m */,
+			);
+			path = categories;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F7F906631A1DB7D0005D4DFA /* TaeSDKDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7F906901A1DB7D0005D4DFA /* Build configuration list for PBXNativeTarget "TaeSDKDemo" */;
+			buildPhases = (
+				F7F906601A1DB7D0005D4DFA /* Sources */,
+				F7F906611A1DB7D0005D4DFA /* Frameworks */,
+				F7F906621A1DB7D0005D4DFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TaeSDKDemo;
+			productName = TaeSDKDemo;
+			productReference = F7F906641A1DB7D0005D4DFA /* TaeSDKDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F7F9067E1A1DB7D0005D4DFA /* TaeSDKDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7F906931A1DB7D0005D4DFA /* Build configuration list for PBXNativeTarget "TaeSDKDemoTests" */;
+			buildPhases = (
+				F7F9067B1A1DB7D0005D4DFA /* Sources */,
+				F7F9067C1A1DB7D0005D4DFA /* Frameworks */,
+				F7F9067D1A1DB7D0005D4DFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F7F906851A1DB7D0005D4DFA /* PBXTargetDependency */,
+			);
+			name = TaeSDKDemoTests;
+			productName = TaeSDKDemoTests;
+			productReference = F7F9067F1A1DB7D0005D4DFA /* TaeSDKDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F7F9065C1A1DB7D0005D4DFA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = alibaba;
+				TargetAttributes = {
+					F7F9067E1A1DB7D0005D4DFA = {
+						TestTargetID = F7F906631A1DB7D0005D4DFA;
+					};
+				};
+			};
+			buildConfigurationList = F7F9065F1A1DB7D0005D4DFA /* Build configuration list for PBXProject "TaeSDKDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F7F9065B1A1DB7D0005D4DFA;
+			productRefGroup = F7F906651A1DB7D0005D4DFA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F7F906631A1DB7D0005D4DFA /* TaeSDKDemo */,
+				F7F9067E1A1DB7D0005D4DFA /* TaeSDKDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F7F906621A1DB7D0005D4DFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7F906F21A1DB942005D4DFA /* Main.storyboard in Resources */,
+				F7A563291A1DBBBC009FDD85 /* yw_1222.jpg in Resources */,
+				F7F906721A1DB7D0005D4DFA /* InfoPlist.strings in Resources */,
+				F7F9067A1A1DB7D0005D4DFA /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7F9067D1A1DB7D0005D4DFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7F9068B1A1DB7D0005D4DFA /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F7F906601A1DB7D0005D4DFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7F906F01A1DB93C005D4DFA /* MyTableCells.m in Sources */,
+				F7F906EE1A1DB93C005D4DFA /* UITableViewCell+FixUITableViewCellAutolayout.m in Sources */,
+				F7F906EF1A1DB93C005D4DFA /* MainUIViewController.m in Sources */,
+				F7F906ED1A1DB93C005D4DFA /* ALAssetRepresentation+extend.m in Sources */,
+				F7F906781A1DB7D0005D4DFA /* AppDelegate.m in Sources */,
+				F7F906741A1DB7D0005D4DFA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7F9067B1A1DB7D0005D4DFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7F9068D1A1DB7D0005D4DFA /* TaeSDKDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F7F906851A1DB7D0005D4DFA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F7F906631A1DB7D0005D4DFA /* TaeSDKDemo */;
+			targetProxy = F7F906841A1DB7D0005D4DFA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F7F906701A1DB7D0005D4DFA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7F906711A1DB7D0005D4DFA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F7F906891A1DB7D0005D4DFA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7F9068A1A1DB7D0005D4DFA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F7F9068E1A1DB7D0005D4DFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "660c5af0-bd08-4eda-b892-c9099a544964";
+				SDKROOT = iphoneos;
+				VALID_ARCHS = "armv7 armv7s";
+			};
+			name = Debug;
+		};
+		F7F9068F1A1DB7D0005D4DFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PROVISIONING_PROFILE = "660c5af0-bd08-4eda-b892-c9099a544964";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "armv7 armv7s";
+			};
+			name = Release;
+		};
+		F7F906911A1DB7D0005D4DFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TaeSDKDemo/libs",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TaeSDKDemo/TaeSDKDemo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
+				INFOPLIST_FILE = "TaeSDKDemo/TaeSDKDemo-Info.plist";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F7F906921A1DB7D0005D4DFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TaeSDKDemo/libs",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TaeSDKDemo/TaeSDKDemo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = "";
+				"GCC_PREPROCESSOR_DEFINITIONS[arch=*]" = "";
+				INFOPLIST_FILE = "TaeSDKDemo/TaeSDKDemo-Info.plist";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		F7F906941A1DB7D0005D4DFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TaeSDKDemo.app/TaeSDKDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TaeSDKDemo/TaeSDKDemo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "TaeSDKDemoTests/TaeSDKDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		F7F906951A1DB7D0005D4DFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TaeSDKDemo.app/TaeSDKDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TaeSDKDemo/TaeSDKDemo-Prefix.pch";
+				INFOPLIST_FILE = "TaeSDKDemoTests/TaeSDKDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F7F9065F1A1DB7D0005D4DFA /* Build configuration list for PBXProject "TaeSDKDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7F9068E1A1DB7D0005D4DFA /* Debug */,
+				F7F9068F1A1DB7D0005D4DFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7F906901A1DB7D0005D4DFA /* Build configuration list for PBXNativeTarget "TaeSDKDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7F906911A1DB7D0005D4DFA /* Debug */,
+				F7F906921A1DB7D0005D4DFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7F906931A1DB7D0005D4DFA /* Build configuration list for PBXNativeTarget "TaeSDKDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7F906941A1DB7D0005D4DFA /* Debug */,
+				F7F906951A1DB7D0005D4DFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F7F9065C1A1DB7D0005D4DFA /* Project object */;
+}

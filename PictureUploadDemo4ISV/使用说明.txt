@@ -1,0 +1,2 @@
+1. 到百川下载SDK(http://tae.taobao.com/portal/doc/240?spm=a1z4f.7474295.0.0.0GHt5d), 把SDK里面的安全图片yw_1222.jpg拷贝到demo项目中
+2. 注意不要把百川SDK里面的TAESDK拷贝过来，由于demo使用了未发布版本的新功能，使用线上SDK将会出现问题。
